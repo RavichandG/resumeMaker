@@ -1,0 +1,184 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.appPage{
+  
+   height: auto;
+/*   border: 2px solid red; */
+}
+
+.homepage{
+     height: 100%;
+     width: 100%;
+     border: 2px solid green;
+     padding: 10px;
+    
+}
+.resumepart{
+  display: flex;
+  height: 90%;
+}
+.resumebuilderSection{
+  width: 50%;
+ /*  border: 2px solid blue; */
+ background-color: bisque;
+ padding: 10px;
+}
+.resumeModelPart{
+  
+  width: 50%;
+  padding: 10px;
+/*   border: 2px solid green; */
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content:start;
+  align-items: center;
+}
+.navigation{
+  height: 5rem;
+  width: 100%;
+  border: 2px solid black;
+}
+.personalDetails{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+.PersonalSummary{
+  margin-top: 2rem;
+  padding: 10px;
+}
+.skillSection{
+  border: 2px solid black;
+  padding: 10px;
+}
+.skill{
+  border: 2px solid black;
+  padding: 5px;
+  text-align: center;
+  margin: 0.5rem;
+}
+.exp{
+  border: 2px solid black;
+  padding: 10px;
+  text-align: center;
+}
+.mainContainer{
+  width: 90%;
+  margin-inline:auto;
+/*   border: 2px solid red; */
+   padding: 10px;
+}
+.resumecontainer{
+
+  padding: 10px;
+  margin-top: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+.resumebox{
+  height: 15rem;
+  width: 15rem;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.openResumeButton{
+  border: 2px solid black;
+  padding: 10px;
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
+}
+.openResumeButton:hover{
+     background-color: black;
+     color: bisque;
+}
+.resume{
+  min-height: 60rem;
+  width: 95%;
+  border: 2px solid black;
+  display: flex;
+  
+}
+.leftSection{
+  width: 50%;
+  border: 1px solid green;
+
+}
+.rightSection{
+  width: 50%;
+  border: 1px solid blue;
+ 
+}
+.resumeTitle{
+  height: 25%;
+  width: 100%;
+  border: 1px solid black;
+}
+.resumeContacts{
+  height: 75%;
+  width: 100%;
+  border: 1px solid black;
+}
+.userName{
+  font-size: 2rem;
+  font-weight: 900;
+  text-align: center;
+}
+.userTitle{
+  text-align: center;
+}
+.resumeTitle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.userContacts{
+  padding: 10px;
+}
+.userEducation{
+  background-color: bisque;
+  padding: 5px;
+  margin-top: 15px;
+  text-align: center;
+}
+.userSkills{
+  padding: 10px;
+}
+.userSkillsList{
+  padding: 5px;
+
+
+}
+.userSkill{
+  text-align: center;
+  border: 1px solid blue;
+  padding: 5px;
+  margin-top: 5px;
+}
+.userExperienceSection{
+  padding: 10px;
+}
+.userExperienceList{
+  margin-top: 1rem;
+  border: 1px solid blue;
+  padding: 5px;
+}
+.userExperience{
+   border: 1px solid red;
+   margin-top: 5px;
+}
+.userJoiningDate{
+  text-align: center;
+}
+.usersummary{
+  padding: 10px;
+}
